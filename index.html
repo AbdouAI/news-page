@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+</head>
+<body>
+  <header>
+    <nav>
+      <img class="logo" src="images/logo.svg" alt="Logo">
+      <img class="menu-logo" src="images/icon-menu.svg" alt="Menu" id="openMenu">      
+      <ul class="menu-list menu-list-desktop">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="main-grid">
+      <div class="col1">
+        <div class="main-img"></div>
+        <div class="content-box">
+          <h1>The Bright Future of Web 3.0?</h1>
+          <div class="txt-btn">
+            <p>
+              We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?
+            </p>
+            <button>READ MORE</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col2">
+        <div class="news-box">
+          <div class="title">
+            <h1>New</h1>
+          </div>
+          <div class="news news1">
+          <a href="#"><h2>Hydrogen VS Electric Cars</h2></a>
+          <p>
+            Will hydrogen-fueld cars ever catch up
+            to EVs?
+          </p>
+          </div>
+          <div class="news">
+            <a href="#"><h2>The Downsides of Al Artistry</h2></a>
+            <p>What are the possible adverse effects of
+              on-demand AI image generation?
+            </p>
+          </div>
+          <div class="news last-news">
+            <a href="#"><h2>Is VC Funding Drying Up?</h2></a>
+            <p>
+              Private funding by VC firms is down 50% 
+              YOY.We take a look at what that means.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="last-grid">
+      <div class="row">
+        <div class="img1 img"></div>
+        <div class="content">
+          <span>01</span>
+          <a href="#"><h3>Reviving Retro PCs</h3></a>
+          <p>
+            What happens when old PCs are given modern upgrades?
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="img2 img"></div>
+        <div class="content">
+          <span>02</span>
+          <a href="#"><h3>Top 10 Laptops of 2022</h3></a>
+          <p>
+            Our best picks for various needs and budgets.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="img3 img"></div>
+        <div class="content">
+          <span>03</span>
+          <a href="#"><h3>The growth of Gaming</h3></a>
+          <p>
+            How the pandemic has sparked fresh opportunities.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="menu-filter display-none" id="menuFilter"></div>
+  <div class="menu-box" id="menuBox">
+    <img src="images/icon-menu-close.svg" alt="close menu" class="icon-close-menu" id="closeMenu">
+    <ul class="menu-list">
+      <li><a href="#" class="menuLinks">Home</a></li>
+      <li><a href="#" class="menuLinks">New</a></li>
+      <li><a href="#" class="menuLinks">Popular</a></li>
+      <li><a href="#" class="menuLinks">Trending</a></li>
+      <li><a href="#" class="menuLinks">Categories</a></li>
+    </ul>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
