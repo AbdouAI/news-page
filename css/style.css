@@ -229,23 +229,21 @@ header nav{
   font-family: RegularInter,sans-serif;
   padding-top: 1.1rem;
   font-size: .95rem;
-  max-width: 25rem
+  max-width: 25rem;
+  margin-bottom: 1.5rem;
 }
 
-.txt-btn button{
-  border-radius: 0;
-  border: none;
+.txt-btn .readmore-btn:link,.txt-btn .readmore-btn:visited{
   background-color: hsl(5, 85%, 63%);
   color: white;
   font-family: RegularInter,sans-serif;
   letter-spacing: .2rem;
   padding: .7rem 2rem;
   font-size: .9rem;
-  margin-top: 1.5rem;
-  cursor: pointer;
+  text-decoration: none;  
 }
 
-.txt-btn button:active{
+.txt-btn .readmore-btn:active{
   background-color: hsl(240, 100%, 5%);
 }
 
@@ -353,7 +351,7 @@ header nav{
 .content span{
   font-family: BoldInter,sans-serif;
   font-size: 2rem;
-  height: 45px;
+  height: 2.5rem;
   display: flex;
   align-items: flex-end;
   color: hsl(233, 8%, 79%);
@@ -437,10 +435,6 @@ header nav{
   }
 
 
-  .txt-btn button{
-    padding: 1rem 2.3rem;
-    margin-top: 1.5rem;
-  }
 }
 @media screen and (min-width:830px){
 
@@ -507,10 +501,13 @@ header nav{
 
   .content-box p{
     line-height: 1.7;
-    height: 9rem;
+    height: 8.77rem;
   }
 
+  .txt-btn .readmore-btn:link,.txt-btn .readmore-btn:visited{
+    padding: .85rem 2.3rem;
 
+  }
 
   .news-box{
     width: 100%;
@@ -525,7 +522,7 @@ header nav{
     top: 1rem;
   }
   .news-box .news{
-    height: 10rem;
+    height: 9.5rem;
   }
 
 
